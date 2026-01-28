@@ -1,4 +1,4 @@
-﻿export default [
+export default [
 	{
 		path: '/user',
 		layout: false,
@@ -36,6 +36,16 @@
 		component: './RandomUser',
 		icon: 'ArrowsAltOutlined',
 	},
+	{
+		path: '/bai-1',
+		name: 'Bài 1: Đoán số',
+		component: '@/pages/Bai1',
+	  },
+	  {
+		path: '/bai-2',
+		name: 'Bài 2: Todo List',
+		component: '@/pages/Bai2'
+	  },
 
 	// DANH MUC HE THONG
 	// {
@@ -89,14 +99,4 @@
 	{
 		component: './exception/404',
 	},
-	{
-		path: '/bai-1',
-		name: 'Bài 1: Đoán số',
-		component: '@/pages/Bai1',
-	  },
-	  {
-		path: '/bai-2',
-		name: 'Bài 2: Todo List',
-		component: '@/pages/Bai2'
-	  },
 ];
